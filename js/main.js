@@ -82,18 +82,26 @@ var gotEightItems = items.filter(function(obj) {
 	return obj.materials.length >= 8;
 	});
 
-var titlesOfMaterials = gotEightItems.map(function(obj) {
-	return obj.title;
-	});
+// var titlesOfMaterials = gotEightItems.map(function(obj) {
+// 	return obj.title;
+// 	});
 
-var numbersOfMaterials = gotEightItems.map(function(obj) {
-	return obj.materials.length;
-	});
+// var numbersOfMaterials = gotEightItems.map(function(obj) {
+// 	return obj.materials.length;
+// 	});
 
-var typesOfMaterials = gotEightItems.map(function(obj) {
-	return obj.materials;
-	});
-s_five.innerHTML = titlesOfMaterials + " " + numbersOfMaterials + " " + typesOfMaterials;
+// var typesOfMaterials = gotEightItems.map(function(obj) {
+// 	return obj.materials;
+// 	});
+
+var finalAnswer1 = gotEightItems.map(function(obj) {
+  return obj.title + " has " + obj.materials.length + " materials: " + obj.materials; 
+});
+
+
+s_five.innerHTML = finalAnswer1;
+
+
 
 // end of QUESTION FIVE --------
 
