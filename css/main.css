@@ -1,171 +1,159 @@
 body {
-	width: 100%;
-	margin: auto;
-}
+  width: 100%;
+  margin: auto; }
 
 div#etsy_items_top {
-	position: absolute;
-	display: inline-block;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	height: 50px;
-	width: 1266px;
-	background-color: white;
-/*	border: 1px solid black;
-*/	padding-top: 25px;
-	padding-left: 40px;
-	overflow: hidden;
-}
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 50px;
+  width: 1266px;
+  background-color: white;
+  /*	border: 1px solid black;
+*/
+  padding-top: 25px;
+  padding-left: 40px;
+  overflow: hidden; }
 
 #etsy_items {
-	font-family: 'Open Sans', sans-serif;
-	color: #888691;
-	font-size: 24px;
-}
+  font-family: 'Open Sans', sans-serif;
+  color: #888691;
+  font-size: 24px; }
 
 .jpg_banner {
-	position: absolute;
-	display: inline-block;
-	top: 82px;
-	content: url(https://tiy-learn-content.s3.amazonaws.com/7c5e124a-banner.jpg);
-	width: 100%;
-	/*max-width: 1266px;*/
-	height: 147px;
-	overflow: hidden;
-}
+  position: absolute;
+  display: inline-block;
+  top: 82px;
+  content: url(https://tiy-learn-content.s3.amazonaws.com/7c5e124a-banner.jpg);
+  width: 100%;
+  /*max-width: 1266px;*/
+  height: 147px;
+  overflow: hidden; }
 
 .stuff {
-	position: relative;
-	display: block;
-	margin: 0;
-	padding: 10px;
-	top: -50px;
-	font-size: 12px;
-	
-}
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  top: -50px;
+  font-size: 12px; }
 
-div.grey_wrapper { 
-/*	font-family: 'Open Sans', sans-serif;*/
-	text-align: center;
-	color: #575757;
-	line-height: 100px;
-	font-size: 25px;
-	font-family: 'Droid Serif', serif;
- }
-
+div.grey_wrapper {
+  /*	font-family: 'Open Sans', sans-serif;*/
+  text-align: center;
+  color: #575757;
+  line-height: 100px;
+  font-size: 25px;
+  font-family: 'Droid Serif', serif; }
 
 .ans_1 {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height:145px;
-	background-color: #ddd;
-	top: 229px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-/*	overflow-x: scroll;*/
-	overflow-y: hidden;
-	white-space: nowrap;
-}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  background-color: #ddd;
+  top: 229px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  /*	overflow-x: scroll;*/
+  overflow-y: hidden;
+  white-space: nowrap; }
 
 .ans_2 {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height:145px;
-	background-color: #ddd;
-	top: 375px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-	overflow: hidden;
-/*	overflow-x: scroll;*/
-	overflow-y: hidden;
-	white-space: nowrap;
-}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  background-color: #ddd;
+  top: 375px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  overflow: hidden;
+  /*	overflow-x: scroll;*/
+  overflow-y: hidden;
+  white-space: nowrap; }
 
 .ans_3 {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height:145px;
-	background-color: #ddd;
-	top: 521px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-	overflow: hidden;
-/*	overflow-x: scroll;*/
-	overflow-y: hidden;
-	white-space: nowrap;
-}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  background-color: #ddd;
+  top: 521px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  overflow: hidden;
+  /*	overflow-x: scroll;*/
+  overflow-y: hidden;
+  white-space: nowrap; }
 
 .ans_4 {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height:145px;
-	background-color: #ddd;
-	top: 667px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
-}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  background-color: #ddd;
+  top: 667px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; }
 
 .ans_5 {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height:145px;
-	background-color: #ddd;
-	top: 813px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
-}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  background-color: #ddd;
+  top: 813px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; }
 
 .ans_6 {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height:145px;
-	background-color: #ddd;
-	top: 959px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-/*	overflow-x: scroll;
-*/	overflow-y: hidden;
-/*	white-space: nowrap;
-*/}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 145px;
+  background-color: #ddd;
+  top: 959px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  /*	overflow-x: scroll;
+*/
+  overflow-y: hidden;
+  /*	white-space: nowrap;
+*/ }
 
 .footer {
-	position: absolute;
-	display: inline-block;
-	width: 100%;
-	height: 72px;
-	background-color: #605865;
-	top: 1105px;
-	left: 0px;
-	right: 0px;
-	border: 1px solid #aaa;
-	overflow: hidden;
-	color: #aaa;
-	text-align: center;
-	font-size: 10px;
-	line-height: 100px;
-}
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 72px;
+  background-color: #605865;
+  top: 1105px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  color: #aaa;
+  text-align: center;
+  font-size: 10px;
+  line-height: 100px; }
